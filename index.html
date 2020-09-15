@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<title>	Tushar Tiwari- Portfolio 2.0</title>
+	<link rel="stylesheet" href="SASS/style.css" >
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178052531-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-178052531-1');
+	</script>
+
+
+    <link rel="icon" type="image/svg" href="img/icon.svg">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" >
+	<!-- Font awesome CDN -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!-- Programming icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+
+<style> 
+</style>
+</head>
+<body>
+	<header class="sticky">
+		<a href="#" class="logo">Portfolio</a>
+		<div class="toggle" onclick="toggleMenu();">
+		</div>
+		<ul class="menu">
+			<li><a href="#home" onclick="toggleMenu();">Home</a></li>
+			<li><a href="#about" onclick="toggleMenu();">About</a></li>
+			<li><a href="#Skills" onclick="toggleMenu();">Skills</a></li>
+			<li><a href="#gallery" onclick="toggleMenu();">Credentials</a></li>
+			<li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+		</ul>
+	</header>
+	<section class="banner" id="home">
+		<div class="textBx">
+			<h2> Hello, I am<br><span>Tushar Tiwari.</span> </h2>
+			<h3> I build things on web.</h3>
+			<a href="#about" class="btn"> About me</a>
+		</div>
+		<div class="w40">
+			<img id="graphic" src="img/graphics.png">
+		</div>
+	</section>
+
+	<section class="about" id="about">
+		<div class="heading">
+			<h2>About Me</h2>
+		</div>
+		<div class="content">
+			 <div class="contentBx">
+			 	<h5>I solve problems using Code.</h5>
+			 	<p>I'm Tushar Tiwari, a 20-year-old Indian Student and a Front-end development Enthusiast.<br>
+			 		I'm a weird guy who likes making weird things with web technologies.
+					I like to resolve design problems, create Responsive Web interface and imagine useful interaction, developing stunning web experiences.<br>
+					When not working or futzing around with code, I like to go for a short jog.</p>
+			 </div>
+			 <div class="w50">
+			 	<img src="img/landscape.webp" class="img">
+			 </div>
+		</div>
+	</section>
+
+	<section class="Skills" id="Skills">
+		<div class="heading">
+			<h2>My Skills</h2>
+		</div>
+		<div class="content">
+
+			<ul class="Skill-list">
+				<li class="Skill-list__item" title="html5"><i class="devicon-html5-plain colored Skill-icon"></i></li>
+				<li class="Skill-list__item" title="css3"><i class="devicon-css3-plain colored Skill-icon"></i></li>
+				<li class="Skill-list__item" title="Sass"><i class="devicon-sass-plain colored Skill-icon"></i></li>
+				<li class="Skill-list__item" title="JavaScript"><i class="devicon-javascript-plain colored Skill-icon"></i></li>
+				<li class="Skill-list__item" title="Bootstrap"><i class="devicon-bootstrap-plain colored Skill-icon"></i></li>
+				<li class="Skill-list__item" title="C"><i class="devicon-c-plain colored Skill-icon"></i></li>
+				<li class="Skill-list__item" title="C++"><i class="devicon-cplusplus-plain colored Skill-icon"></i></li>
+				<li class="Skill-list__item" title="jquery"><i class="devicon-jquery-plain colored Skill-icon"></i></li>
+			</ul>
+
+		</div>
+	</section>
+
+	<section class="gallery" id="gallery">
+		<div class="heading">
+			<h2>Participations</h2>
+		</div>
+		<ul>
+			<li class="list active" data-filter="all">All</li>
+			<li class="list" data-filter="coursera">Coursera</li>
+			<li class="list" data-filter="google">Google</li>
+			<li class="list" data-filter="microsoft">Microsoft</li>
+			<li class="list" data-filter="tcs">TCS</li>
+			<li class="list" data-filter="others">Others</li>
+
+		</ul>
+		<div class="product">
+			<div class="itembox google"><img src="img/cert-1.webp"></div>
+			<div class="itembox microsoft"><img src="img/cert-7.webp"></div>
+			<div class="itembox coursera"><img src="img/cert-4.png"></div>
+			<div class="itembox others"><img src="img/cert-6.svg"></div>
+			<div class="itembox tcs"><img src="img/cert-8.webp"></div>
+			<div class="itembox google"><img src="img/cert-9.png"></div>
+			<div class="itembox coursera"><img src="img/cert-3.png"></div>
+			<div class="itembox others"><img src="img/cert-2.png"></div>
+			<div class="itembox coursera"><img src="img/cert-5.png"></div>
+			<div class="itembox microsoft"><img src="img/cert-11.webp"></div>
+			<div class="itembox others"><img src="img/cert-10.png"></div>
+		</div>
+
+
+		<!-- </div> -->
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="heading white">
+			<h2>Get in Touch</h2>
+		</div>
+		<div class="content">
+			<div class="contactinfo">
+				<h3 class="h3">Contact Info</h3>
+				<div class="contactinfoBx">
+					<div class="box">
+						<div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+						<div class="text ">
+							<h3>Address</h3>
+							<p>Chandigarh,India	<br> 160031 </p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+						<div class="text ">
+							<h3>Phone</h3>
+							<p> 98550-84891</p>
+						</div>
+					</div>
+					<div class="box">
+						<div class="icon"><i class="fa fa-envelope-o"></i></div>
+						<div class="text ">
+							<h3>Email</h3>
+							<p>tushartiwari0172@gmail.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="formBx">
+				<form>
+					<h3 class="h3">Message Me</h3>
+					<input type="text" name="" placeholder="Full Name">
+					<input type="Email" name="" placeholder="Email">
+					<input type="number" name="" placeholder="Phone Number">
+					<textarea placeholder="Your Message" style="font-family: 'Poppins', sans-serif;"></textarea>
+					<input type="submit" name="" value="send">
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<div class="copyright">
+		Copyright &copy; 2020 <a href="https://www.linkedin.com/in/tushartiwari0172/"> Tushar Tiwari.</a>
+	</div>
+
+	<script  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+		window.addEventListener('scroll', function(){
+			var header = document.querySelector('header');
+			header.classList.toggle ( 'sticky', window.scrollY>0 );
+		});
+
+		function toggleMenu() {
+			var menuToggle = document.querySelector('.toggle');
+			var menu = document.querySelector('.menu');
+			menuToggle.classList.toggle('active');
+			menu.classList.toggle('active');
+		}
+
+		$(document).ready(function() {
+			$('.list').click(function(){
+				const value = $(this).attr('data-filter');
+				if (value == 'all') {
+					$('.itembox').show('1000');
+				}
+				else {
+					$('.itembox').not('.'+value).hide('1000');
+					$('.itembox').filter('.' +value).show('1000');
+				}
+			});
+
+			$('.list').click(function() {
+				$(this).addClass('active').siblings().removeClass('active');
+			});
+
+		});
+	</script>
+</body>
+</html>

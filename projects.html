@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<title>	Tushar Tiwari- Portfolio 2.0</title>
+	<link rel="stylesheet" href="SASS/style.css" >
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178052531-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-178052531-1');
+	</script>
+
+
+    <link rel="icon" type="image/svg" href="img/icon.svg">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" >
+	<!-- Font awesome CDN -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<!-- Programming icons -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+
+</head>
+<body>
+	<header class="sticky">
+		<a href="#" class="logo">Portfolio</a>
+		<div class="toggle" onclick="toggleMenu();">
+		</div>
+		<ul class="menu">
+			<li><a href="index.html" onclick="toggleMenu();">Home</a></li>
+			<!-- <li><a href="#about" onclick="toggleMenu();">About</a></li> -->
+			<li><a href="projects.html" onclick="toggleMenu();">Projects</a></li>
+			<li><a href="" onclick="toggleMenu();">Blogs</a></li>
+			<!-- <li><a href="blogs.html" onclick="toggleMenu();">Skills</a></li> -->
+			<!-- <li><a href="#gallery" onclick="toggleMenu();">Credentials</a></li> -->
+			<!-- <li><a href="#contact" onclick="toggleMenu();">Contact</a></li> -->
+		</ul>
+	</header>
+
+	<section class="container" id="projects">
+		<div class="heading ">
+			<h2>My Work</h2>
+		</div>
+		<div class="content projectPage">
+			<ul class="projectsList">
+                <li class="projectItem">
+                    <article>
+                        <h1>Expense App</h1>
+                        <small>Vanilla Js</small>
+                        <p>
+                            Store all your Tasks at one Place. You can add, delete the info as per your requirements.
+                        </p>
+                        <a href="https://expensediary.netlify.app" class="btn">Live Preview</a>
+                        <a href="https://github.com/tushartiwari7/Expense-Diary" class="btn btnBorder">View Source</a>
+                        
+                    </article>
+                </li>
+                <li class="projectItem">
+                    <article>
+                        <h1>Programming Facts Quiz</h1>
+                        <small>Node Js</small>
+                        <p>
+                            A CLI app built with nodeJS. You can send this to your friends and find out who really knows you
+                        </p>
+                        <a href="https://repl.it/@tushartiwari/cli-quiz-project2?embed=1&output=1#index.js" class="btn">Live Preview</a>
+                        <a href="https://repl.it/@tushartiwari/cli-quiz-project2" class="btn btnBorder">View Source</a>
+                        
+                    </article>
+                </li>
+                <li class="projectItem">
+                    <article>
+                        <h1>Know Me Quiz</h1>
+                        <small>Node Js</small>
+                        <p>A CLI app built with nodeJS. Play this and find out how well Do you Know me. :)</p>
+                        <a href="https://repl.it/@tushartiwari/cli-quiz-project1?embed=1&output=1#index.js" class="btn">Live Preview</a>
+                        <a href="https://repl.it/@tushartiwari/cli-quiz-project1" class="btn btnBorder">View Source</a>
+                        
+                    </article>
+                </li>
+            </ul>
+		</div>
+	</section>
+
+
+	<div class="copyright">
+		Copyright &copy; 2020 <a href="https://www.linkedin.com/in/tushartiwari0172/"> Tushar Tiwari.</a>
+	</div>
+
+	<script  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+
+	<script type="text/javascript"
+		src = "script.js"
+	></script>
+</body>
+</html>

@@ -174,9 +174,55 @@ img {
 	background: #f0f0f0;
 	background-blend-mode: color-dodge;
 }
-.contact {
+.contact, .project {
 	background: #111;
 }
+.projectsList {
+	list-style: none;
+}
+.projectPage {
+	max-width: 900px;
+	margin: auto;
+}
+.project .content,
+.blogs .content {
+	display: flex;
+	flex-direction: column;
+}
+.projectItem {
+	padding: 30px;
+}
+.projectItem .btn {
+	font-size: 14px;
+	max-width: 170px;
+	padding: 10px 15px;
+}
+.projectItem h1 {
+	font-size: x-large;
+}
+.projectItem .btnBorder {
+	background: none;
+	color: #03a9f4;
+	border-radius: 1px;
+	border: 1px solid #03a9f4;
+}
+.projectText {
+	font-size: 20px;
+}
+.project .btn {
+	font-size: 16px;
+	padding-right: 15px;
+	max-width: 190px;
+} 
+.container h2 {
+	font-size: 44px;
+	color: #999;
+}
+.blogs .btn {
+	font-size: 16px;
+	padding-right: 15px;
+	max-width: 160px;
+} 
 .about {
 	background: rgba(234,234,234,0.3);
 }

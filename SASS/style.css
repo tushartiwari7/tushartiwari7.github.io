@@ -66,6 +66,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	transition: 0.5s;
+	background: #000;
 } 
 
 header.sticky {
@@ -174,7 +175,8 @@ img {
 	background: #f0f0f0;
 	background-blend-mode: color-dodge;
 }
-.contact, .project {
+
+.contact, .project, .certificates {
 	background: #111;
 }
 .projectsList {
@@ -185,7 +187,8 @@ img {
 	margin: auto;
 }
 .project .content,
-.blogs .content {
+.blogs .content,
+.certificates .content {
 	display: flex;
 	flex-direction: column;
 }
@@ -200,7 +203,7 @@ img {
 .projectItem h1 {
 	font-size: x-large;
 }
-.projectItem .btnBorder {
+.btnBorder {
 	background: none;
 	color: #03a9f4;
 	border-radius: 1px;
@@ -223,6 +226,11 @@ img {
 	padding-right: 15px;
 	max-width: 160px;
 } 
+.certificates .btn {
+	font-size: 16px;
+	padding-right: 15px;
+	max-width: 250px;
+}
 .about {
 	background: rgba(234,234,234,0.3);
 }
@@ -244,7 +252,7 @@ section.gallery {
 /*Gallery*/
 
 section.gallery {
-	padding: 20px;
+	padding: 50px;
 	width: 100%;
 }
 
@@ -262,7 +270,9 @@ section.gallery ul li {
 	letter-spacing: 1px;
 	cursor: pointer;
 }
-
+section.gallery .heading {
+	margin-top: 70px;
+}
 section.gallery ul li.active {
 	background: #03a9f4;
 	color: #fff;

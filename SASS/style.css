@@ -12,7 +12,7 @@ section {
 .banner {
 	position: relative;
 	min-height: 100vh;
-	background: url(../img/banner4.jpg);
+	background-color: #111;
 	background-size: cover;
 	background-position: right;
 	display: flex;
@@ -28,9 +28,7 @@ section {
 .banner h2 span {
 	font-size: 1.5em;
 	font-weight: 700;
-
 }
-
 .banner h3 {
 	font-size: 1.5em;
 	color: #fff;

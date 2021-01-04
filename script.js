@@ -1,7 +1,12 @@
+const loaderContainerEl = document.querySelector('.loaderContainer');
+
 window.addEventListener('scroll', function(){
     var header = document.querySelector('header');
     header.classList.toggle ( 'sticky', window.scrollY>0 );
 });
+window.addEventListener('load',() => {
+    loaderContainerEl.classList.add('hide');
+})
 
 function toggleMenu() {
     var menuToggle = document.querySelector('.toggle');
@@ -9,6 +14,7 @@ function toggleMenu() {
     menuToggle.classList.toggle('active');
     menu.classList.toggle('active');
 }
+
 
 $(document).ready(function() {
     $('.list').click(function(){

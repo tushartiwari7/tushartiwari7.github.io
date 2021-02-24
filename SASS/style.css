@@ -416,7 +416,7 @@ section.Skills .heading {
 	padding: 20px 0;
 	display: flex;
 }
-.contactinfo .box .icon {
+.contactinfo address .box .icon {
 	min-width: 40px;
 	padding-top: 30px;
 	color: #fff;

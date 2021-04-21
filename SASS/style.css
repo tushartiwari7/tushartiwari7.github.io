@@ -170,14 +170,11 @@ header ul li a {
 	/*animation */
 /*	animation: graphic 1s infinite;
 	animation-direction: alternate;
-	
 	#graphic { animation-timing-function: ease-in-out; }
-
-@keyframes graphic {
-	from { top: 0px; }
-	to { top: 50px; }
-
-}
+	@keyframes graphic {
+		from { top: 0px; }
+		to { top: 50px; }
+	}
 */
 .w50 img {
 	filter: brightness(.75) grayscale(100);
@@ -321,8 +318,6 @@ section.gallery ul li.active {
 }
 
 /*Skills*/
-
-
 .Skill-list {
     list-style: none;
     display: flex;
@@ -442,7 +437,6 @@ section.Skills .heading {
 	margin-bottom: 0px;
 }
 
-
 section.contact {
 	padding-bottom: 50px;
 }
@@ -482,7 +476,6 @@ section.contact .heading {
 }
 
 /*Responsive*/
-
 @media (max-width: 991px) {
 	
 	header, header.sticky {
@@ -650,7 +643,6 @@ section.contact .heading {
 	}
 
 }
-
 
 @media(max-width: 350px) {
 	.w40 {

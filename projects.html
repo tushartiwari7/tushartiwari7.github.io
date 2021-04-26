@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
-	<title>	Tushar Tiwari- Portfolio 2.0</title>
+    <title>Projects</title>
+    <meta name="theme-color" content="#03a9f4"/>
 	<link rel="stylesheet" href="SASS/style.css" >
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178052531-1"></script>
@@ -16,7 +17,7 @@
 	</script>
 
 
-    <link rel="icon" type="image/svg" href="img/icon.svg">
+    <link rel="icon" type="image/svg" href="img/man.svg">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" >
 	<!-- Font awesome CDN -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -36,13 +37,54 @@
 			<li><a href="certifications.html" onclick="toggleMenu();">Credentials</a></li>
 		</ul>
 	</header>
-
+    
+	<div class="loaderContainer">
+		<img class="spinner" src="img/spinner.svg"/>
+	</div>
 	<section class="container" id="projects">
 		<div class="heading ">
 			<h2>My Work</h2>
 		</div>
 		<div class="content projectPage">
 			<ul class="projectsList">
+                <li class="projectItem">
+                <article>
+                    <h1>Cardsticks</h1>
+                    <small>ReactJs, Firebase</small>
+                    <p> <br/>
+                        An App to remind you all your tasks for the Day <br/>
+                        Here, you can store your tasks, marks as completed or pending and delete them if you want.
+                    </p>
+                    <a href="https://cardsticks.vercel.app" target="_blank" class="btn">Live Preview</a>
+                    <a href="https://github.com/tushartiwari7/cardsticks" target="_blank" class="btn btnBorder">View Source</a>
+                    
+                </article>
+            </li>
+                <li class="projectItem">
+                    <article>
+                        <h1>Explore Chandigarh</h1>
+                        <small>ReactJs, AJAX</small>
+                        <p>
+                            New to my city! <br/>
+                            let me help you with finding best Spots.
+                        </p>
+                        <a href="https://explorechandigarh.netlify.app" target="_blank" class="btn">Live Preview</a>
+                        <a href="https://github.com/tushartiwari7/travelGuide" class="btn btnBorder">View Source</a>
+                        
+                    </article>
+                </li>
+                <li class="projectItem">
+                    <article>
+                        <h1>know Emoji's better</h1>
+                        <small>ReactJs, AJAX</small>
+                        <p>
+                            enter any emoji and know its meaning superfast. as well as you can click on any emoji to know its meaning.
+                        </p>
+                        <a href="https://knowemoji.netlify.app" target="_blank" class="btn">Live Preview</a>
+                        <a href="https://github.com/tushartiwari7/emojiInterpreter" class="btn btnBorder">View Source</a>
+                        
+                    </article>
+                </li>
 				<li class="projectItem">
                     <article>
                         <h1>Language Translator</h1>
@@ -50,7 +92,7 @@
                         <p>
                             translate text from english to many other languages.
                         </p>
-                        <a href="https://translatebhasha.netlify.app" class="btn">Live Preview</a>
+                        <a href="https://translatebhasha.netlify.app" target="_blank" class="btn">Live Preview</a>
                         <a href="https://github.com/tushartiwari7/language-translator" class="btn btnBorder">View Source</a>
                         
                     </article>
@@ -62,7 +104,7 @@
                         <p>
                             translate text from english to language used by minions.
                         </p>
-                        <a href="https://expressminionese.netlify.app" class="btn">Live Preview</a>
+                        <a href="https://expressminionese.netlify.app" target="_blank" class="btn">Live Preview</a>
                         <a href="https://github.com/tushartiwari7/minion-translator" class="btn btnBorder">View Source</a>
                         
                     </article>
@@ -74,7 +116,7 @@
                         <p>
                             Store all your Tasks at one Place. You can add, delete the info as per your requirements.
                         </p>
-                        <a href="https://expensediary.netlify.app" class="btn">Live Preview</a>
+                        <a href="https://expensediary.netlify.app" target="_blank" class="btn">Live Preview</a>
                         <a href="https://github.com/tushartiwari7/Expense-Diary" class="btn btnBorder">View Source</a>
                         
                     </article>

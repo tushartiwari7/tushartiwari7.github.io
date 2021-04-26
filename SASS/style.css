@@ -76,8 +76,6 @@ header.sticky {
 header.sticky .logo {
 	color: #111; 
 }
-
-
 header.sticky ul li a {
 	color: #111;
 }
@@ -116,6 +114,29 @@ header ul li a {
 	font-weight: 600;
 	font-size: 30px;
 }
+.loaderContainer {
+	background-color: #444;
+	transition: all 0.3s;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.hide {
+	opacity: 0;
+	pointer-events: none;
+}
+.spinner {
+	width: 60px;
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
 .content {
 	display: flex;
 	justify-content: space-between;
@@ -143,20 +164,17 @@ header ul li a {
 	padding: 20px 20px 0px 20px;
 }
 .w40 img {
-	filter: drop-shadow(15px 10px 20px #444);
+	filter: drop-shadow(15px 10px 20px #000);
 
 }
 	/*animation */
 /*	animation: graphic 1s infinite;
 	animation-direction: alternate;
-	
 	#graphic { animation-timing-function: ease-in-out; }
-
-@keyframes graphic {
-	from { top: 0px; }
-	to { top: 50px; }
-
-}
+	@keyframes graphic {
+		from { top: 0px; }
+		to { top: 50px; }
+	}
 */
 .w50 img {
 	filter: brightness(.75) grayscale(100);
@@ -300,8 +318,6 @@ section.gallery ul li.active {
 }
 
 /*Skills*/
-
-
 .Skill-list {
     list-style: none;
     display: flex;
@@ -395,7 +411,7 @@ section.Skills .heading {
 	padding: 20px 0;
 	display: flex;
 }
-.contactinfo .box .icon {
+.contactinfo address .box .icon {
 	min-width: 40px;
 	padding-top: 30px;
 	color: #fff;
@@ -420,7 +436,6 @@ section.Skills .heading {
 	color: #2196f3;
 	margin-bottom: 0px;
 }
-
 
 section.contact {
 	padding-bottom: 50px;
@@ -461,7 +476,6 @@ section.contact .heading {
 }
 
 /*Responsive*/
-
 @media (max-width: 991px) {
 	
 	header, header.sticky {
@@ -629,7 +643,6 @@ section.contact .heading {
 	}
 
 }
-
 
 @media(max-width: 350px) {
 	.w40 {

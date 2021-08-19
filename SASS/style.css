@@ -167,22 +167,7 @@ header ul li a {
 	filter: drop-shadow(15px 10px 20px #000);
 
 }
-	/*animation */
-/*	animation: graphic 1s infinite;
-	animation-direction: alternate;
-	#graphic { animation-timing-function: ease-in-out; }
-	@keyframes graphic {
-		from { top: 0px; }
-		to { top: 50px; }
-	}
-*/
-.w50 img {
-	filter: brightness(.75) grayscale(100);
-	transition: 1s ease;
-}
-section.about:hover .w50 img {
-	filter: brightness(1) grayscale(0);
-} 
+
 img {
 	max-width: 100%;
 }
@@ -219,6 +204,17 @@ img {
 .projectItem h1 {
 	font-size: x-large;
 }
+
+.projectItem > article > p {
+	padding-top: 20px;
+}
+.projectItem > article > small > span {
+	background-color: #444;
+	padding: 5px;
+	border-radius: 10px;
+	margin: 0px 5px 0px 0px;
+	color: #fff;
+}
 .btnBorder {
 	background: none;
 	color: #03a9f4;
@@ -229,9 +225,8 @@ img {
 	font-size: 20px;
 }
 .project .btn {
-	font-size: 16px;
 	padding-right: 15px;
-	max-width: 190px;
+	max-width: 200px;
 } 
 .container h2 {
 	font-size: 44px;

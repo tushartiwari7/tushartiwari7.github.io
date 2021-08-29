@@ -205,8 +205,11 @@ img {
 	font-size: x-large;
 }
 
+.projectItem > article {
+	display: grid;
+}
 .projectItem > article > p {
-	padding-top: 20px;
+	padding: 20px 0px;
 }
 .projectItem > article > small > span {
 	background-color: #444;
@@ -215,6 +218,11 @@ img {
 	margin: 0px 5px 0px 0px;
 	color: #fff;
 }
+
+.projectItem > article > img {
+	width: 60%;
+}
+
 .btnBorder {
 	background: none;
 	color: #03a9f4;

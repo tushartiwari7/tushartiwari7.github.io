@@ -136,7 +136,37 @@ header ul li a {
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
-
+.social {
+    margin-top: 3.2rem;
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+	list-style: none;
+}
+ul li {
+	display: list-item;
+    text-align: -webkit-match-parent;
+}
+.social-link {
+    display: inline-block;
+    font-size: 2.5rem;
+    color: #fafafa;
+    transform: translateY(0);
+    transition: all .3s linear;
+}
+.social-link:hover {
+	color: #6c63ff;
+	transform: translateY(-3px);
+}
+svg {
+	stroke: currentcolor;
+    fill: currentcolor;
+    stroke-width: 0;
+    height: 1.5rem;
+    width: 1.5rem;
+}
 .content {
 	display: flex;
 	justify-content: space-between;

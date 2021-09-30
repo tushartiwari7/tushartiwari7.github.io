@@ -494,6 +494,9 @@ section.contact .heading {
 .copyright a:hover {
 	color: #fffeee;
 }
+.copyright .social {
+	margin: 1rem auto;
+}
 
 .w40 img {
   position: relative;
